@@ -1,0 +1,14 @@
+{
+    "Rules": [
+        {
+            "ID": "delete-incomplete-mpu-7days",
+            "Status": "Enabled",
+            "Filter": {
+                "Prefix": ""
+            },
+            "AbortIncompleteMultipartUpload": {
+                "DaysAfterInitiation": 7
+            }
+        }
+    ]
+}
